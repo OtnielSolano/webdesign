@@ -1,0 +1,46 @@
+html,
+body {
+  height: 100%;
+}
+* {
+  margin: 0;
+}
+body {
+  font-family: CodePro, sans-serif;
+  border: 20px solid #bdc3c7;
+  margin: 0 auto;
+  width: 70%;
+  padding: 20px;
+}
+
+/* article {
+  margin: 0 auto;
+  width: 200px;
+  border-color: 10px solid #bdc3c7;
+} */
+
+article {
+  margin-bottom: 2px;
+  border-bottom: 10px solid#bdc3c7;
+}
+
+@font-face {
+  font-family: "codepro";
+  src: url("fonts/SourceCodePro-Regular.ttf");
+}
+
+p {
+  text-align: justify;
+}
+
+p:first-of-type {
+  border-left: 10px solid gray;
+  padding-left: 20px;
+}
+
+h4 {
+  color: #3498db;
+}
+h2 {
+  color: #2c3e50;
+}
